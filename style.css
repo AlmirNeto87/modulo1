@@ -4,3 +4,25 @@
     text-decoration: none;
     
 }
+
+.container{
+    gap: 20px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: gray;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    gap :10px;
+}

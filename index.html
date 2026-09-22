@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         
         <h1>Formulário de Cadastro</h1>
-        <form action="" >   
+        
+        <form action="" class="form">    
 
-            <label for="name">Name:</label>
+            <label for="name">Name:
             <input type="text" id="name" name="name" placeholder="Enter your name">
-            <label for="email">Email:</label>
+            </label>
+            <label for="email">Email:
             <input type="email" id="email" name="email" placeholder="Enter your email">
-            <label for="password">Senha:</label>
+            </label>
+            <label for="password">Senha:
             <input type="password" id="password" name="password" placeholder="Enter your password">
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
-            
+            </label>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+
         </form>
+
     </div>
 
 </body>
